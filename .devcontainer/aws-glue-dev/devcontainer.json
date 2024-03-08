@@ -1,0 +1,23 @@
+{
+  "name": "aws-glue-dev",
+  "dockerComposeFile": ["../../aws-glue-dev/docker-compose.yml"],
+  "service": "aws-glue-dev-container",
+  "workspaceFolder": "/home/glue_user/workspace",
+  "updateRemoteUserUID": false,
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python3",
+        "python.analysis.extraPaths": [
+            "/home/glue_user/aws-glue-libs/PyGlue.zip:/home/glue_user/spark/python/lib/py4j-0.10.9-src.zip:/home/glue_user/spark/python/"
+        ]
+      },
+      "extensions": [
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "ms-python.debugpy"
+      ]
+    }
+  }
+}

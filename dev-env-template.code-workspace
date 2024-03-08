@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "name": "aws-glue-dev",
+      "path": "aws-glue-dev",
+    }
+  ],
+  "extensions": {
+    "recommendations": []
+  },
+  "settings": {},
+}
