@@ -45,8 +45,7 @@ job
 ## docker compose
 
 ```sh
-$ make docker start
-$ make glue start
+$ docker compose up
 ```
 
 ## docker run

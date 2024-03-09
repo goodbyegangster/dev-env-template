@@ -1,1 +1,10 @@
 .ipynb_checkpoints/
+*.ipynb
+
+notebook/
+!notebook/.gitkeep
+src/
+!src/__init__.py
+!src/sample.py
+test/
+!test/__init__.py
