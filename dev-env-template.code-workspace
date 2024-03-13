@@ -10,10 +10,18 @@
     {
       "name": "aws-glue-dev",
       "path": "aws-glue-dev",
+    },
+    {
+      "name": "dbt-sample-project",
+      "path": "dbt-sample-project",
     }
   ],
   "extensions": {
     "recommendations": []
   },
-  "settings": {},
+  "settings": {
+    // sqlfluff
+    "sqlfluff.executablePath": "${workspaceFolder}/dbt-sample-project/.venv/bin/sqlfluff",
+    "sqlfluff.config": "${workspaceFolder}/dbt-sample-project/.configs/.sqlfluff/.sqlfluff",
+  },
 }
