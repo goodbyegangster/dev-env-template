@@ -4,6 +4,10 @@
       "path": "."
     },
     {
+      "name": "apache-iceberg",
+      "path": "apache-iceberg",
+    },
+    {
       "name": "aws-glue-dev",
       "path": "aws-glue-dev",
     }
